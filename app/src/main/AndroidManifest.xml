@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ragnar.drclub">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Gynecologist"
+            android:label="Gynecologist"
+            android:parentActivityName=".Hospital" />
+        <activity
+            android:name=".Cardiologist"
+            android:label="Cardiologist"
+            android:parentActivityName=".Hospital" />
+        <activity
+            android:name=".Neurologist"
+            android:label="Neurologist"
+            android:parentActivityName=".Hospital" />
+        <activity
+            android:name=".Ophthalmologist"
+            android:label="Ophthalmologist"
+            android:parentActivityName=".Hospital" />
+        <activity
+            android:name=".Gastroenterologist"
+            android:label="Gastroenterologist"
+            android:parentActivityName=".Hospital" />
+        <activity
+            android:name=".Orthopedic"
+            android:label="Orthopedic"
+            android:parentActivityName=".Hospital" />
+        <activity
+            android:name=".Hospital"
+            android:label="Hospital"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Department"
+            android:label="Department"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Ibnsina"
+            android:label="IBN SINA"
+            android:parentActivityName=".Hospital" />
+        <activity
+            android:name=".MagOsmani"
+            android:label="M.A.G OSMANI"
+            android:parentActivityName=".Hospital" />
+        <activity
+            android:name=".MtAdora"
+            android:label="MOUNT ADORA"
+            android:parentActivityName=".Hospital" />
+        <activity
+            android:name=".RagibRabeya"
+            android:label="RAGIB-RABEYA"
+            android:parentActivityName=".Hospital" />
+        <activity
+            android:name=".AboutPage"
+            android:label="About Us"
+            android:parentActivityName=".MainActivity"
+            ></activity>
+    </application>
+
+</manifest>

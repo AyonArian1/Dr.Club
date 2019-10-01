@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="HOSPITAL">
+        <menu>
+            <item
+                android:id="@+id/nav_ibn"
+                android:title="IBN-SINA" />
+            <item
+                android:id="@+id/nav_osmani"
+                android:title="M.A.G. OSMANI" />
+            <item
+                android:id="@+id/nav_mount"
+                android:title="MOUNT ADORA" />
+            <item
+                android:id="@+id/nav_ragib"
+                android:title="RAGIB RABEYA" />
+
+        </menu>
+    </item>
+
+    <item android:title="DEPARTMENT">
+        <menu>
+
+        <item
+            android:id="@+id/cardio"
+            android:title="Cardiologist"
+            android:icon="@drawable/cardiology"/>
+        <item
+            android:id="@+id/neuro"
+            android:title="Neurologist"
+            android:icon="@drawable/neurology"/>
+        <item
+            android:id="@+id/ophtal"
+            android:title="Ophthalmology"
+            android:icon="@drawable/ophthalmology"/>
+        <item
+            android:id="@+id/gastro"
+            android:title="Gastroenterologist"
+            android:icon="@drawable/gastroent"/>
+        <item
+            android:id="@+id/ortho"
+            android:title="Orthopedic"
+            android:icon="@drawable/orthopedic"/>
+        <item
+            android:id="@+id/gyno"
+            android:title="Gynecologist"
+            android:icon="@drawable/gynecology" />
+        </menu>
+    </item>
+
+
+
+</menu>

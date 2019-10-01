@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Dr. Club</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="share">Share</string>
+    <string name="action_settings">Settings</string>
+    <string name="settings">Settings</string>
+
+    <string name="call_for_serial">Call for Serial</string>
+
+    <string name="about_name">Koushik Das Ayon</string>
+    <string name="about_email">ayonarian@gmail.com</string>
+
+</resources>
